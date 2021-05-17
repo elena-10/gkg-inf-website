@@ -66,3 +66,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 // OTHER SCRIPTS //
 ///////////////////
 
+
+  function sendEmail(){
+      window.open("mailto:laraschmid@sunrise.ch")
+  }
