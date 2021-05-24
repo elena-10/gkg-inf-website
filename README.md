@@ -41,6 +41,7 @@ Zeitplan mit mindestens wöchentlichen Meilensteinen. Wann setzt wer etwas um?
 | 15.05.2021 | Lara Schmid, Elena Lützeschwab  | Unterseiten gestalten |
 | 17.05.2021 | Lara Schmid, Elena Lützeschwab | Footer, Dokumentation beginnen|
 
+
 ## Umsetzung
 
 Detaillierte Beschreibung der umgesetzten Webseite.

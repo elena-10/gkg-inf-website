@@ -1,20 +1,8 @@
-
-body {
-    
-}
-
 .menu {
   top:10px;
   left: 10px;
 }
 
-.page {
-
-}
-
-.footer {
-
-}
 .Nav {
     top:10px;
     left: 10px;
@@ -43,12 +31,6 @@ ul.topnav {
   
   ul.topnav li a:hover:not(.active) {background-color: #F1F1f2;}
 
-  
-  @media screen and (max-width: 600px) {
-    ul.topnav li.right, 
-    ul.topnav li {float: none;}
-
-  }
   .startBild{
     position: absolute;
     top: 280px;
@@ -268,25 +250,144 @@ ul.topnav {
   left: 850px;
 }
 
-.footer {
-  margin-top: 30px; 
-  background-color: #333333;
+.footerEvents {
+  margin-top: 1450px; 
+  background-color: #bcbabe;
+  padding: 30px; 
+  color: white; 
+  height: 7vh; 
+  font-size: 15px;  
+}
+
+.footerHome {
+  margin-top: 1530px; 
+  background-color: #bcbabe;
   padding: 30px; 
   color: white; 
   height: 7vh; 
   font-size: 15px; 
+  
 }
-
-.footer a {
+.footerPreise {
+  margin-top: 1830px; 
+  background-color: #bcbabe;
+  padding: 30px; 
   color: white; 
-  text-decoration: none; 
+  height: 7vh; 
+  font-size: 15px; 
+  
 }
 
-#fbox1, #fbox2 {
-  width: 50%; 
-  float: left; 
+#fbox1 {
+  width: 50%;
+  float: left;
+  text-align: center; 
+  color: black;
+
 }
 
 #fbox2 {
-  text-align: right;
+  width: 50%;
+  color: black;
+  text-align: left;
+  float:right;
+}
+@media screen and (max-width: 1435px){
+  ul.topnav li a {
+    padding: 14px 20px;}
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+
+}
+@media screen and (max-width: 1300px){
+  .BasicInfo{
+    left: 790px;
+    width: 350px;
+  }
+  .startBildB{
+    height: auto;
+    width: 90%;
+  }
+  .indexTitel{
+    left: 400px;
+  }
+  .überuns{
+    width: 380px;
+    left: 160px;
+  }
+  .barBild{
+    left: 760px;
+  }
+  .barBildB{
+    height: auto;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1170px){
+  .startBild{
+    top: 850px;
+    left: 150px;
+    height: auto;
+    width: 80%;
+  }
+  .BasicInfo{
+    top: 350px;
+    left: 380px;
+    width: 350px;
+    
+  }
+  .indexTitel{
+    left: 360px;
+  }
+  .überuns{
+    top: 1450px;
+    left: 380px;
+    width: 350px;
+  }
+  .barBild{
+    top: 2050px;
+    left: 370px;
+    height: auto;
+    width: 40%;
+  }
+
+  .footerHome {
+    margin-top: 2730px; 
+  }
+}
+@media screen and (max-width: 900px){
+  .startBild{
+    top: 850px;
+    left: 80px;
+    height: auto;
+    width: 80%;
+  }
+  .BasicInfo{
+    top: 350px;
+    left: 150px;
+    width: 300px;
+    
+  }
+  .indexTitel{
+    top: 180px;
+    left: 80px;
+  }
+  .überuns{
+    top: 1250px;
+    left: 150px;
+    width: 300px;
+  }
+  .barBild{
+    top: 2050px;
+    left: 120px;
+    height: auto;
+    width: 60%;
+  }
+
+  .footerHome {
+    margin-top: 2730px; 
+  }
 }
