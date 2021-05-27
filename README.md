@@ -17,15 +17,32 @@ Auf jeder Seite sieht man einen "Footer", die unsere Kontaktdaten zu verfügung 
 
 ### Hauptseite "Home"
 
-Skizze mit Beschreibung.
+![Homeseite](/github/homeseite_planung.png)
+ 
+ Die **"Homeseite"**, auch Hauptseite, ist leicht verständlich gestaltet. Dabei war uns sehr wichtig das sie potentielle Kunden ansprechen könnte. Oben an der Website soll man das Menü und unterhalb sollte man einen "Footer" sehen.
+ Man sollte ein selbst erstelltes Logo sehen und dazu zwei Bilder und Textabschnitte.
+
+ Das erste Bild soll das Hotel zeigen, damit der Kunde schon beim ersten Blick sieht ob es ihm zuspricht. Der dazugehörige Text soll das Hotel summarisch beschreiben. 
+
+ Das zweite Bild soll die Hotel Bar, welche wichtig für die Enstehungsgeschichte ist und darum weise dort platziert wurde zeigen. Daneben soll ein kurzer historischbedingter Text stehen.
 
 ### Unterseite 1 "Zimmer und Preise" 
+![Zimmer und Preise](/github/zimmerundpreise_planung.png)
+Die erste Unterseite, bei uns **Zimmer und Preise** gennannt, soll dem Kunden die Übernachtungszimmer vorstellen. Wir haben uns für drei verschiedene Zimmerarten entschieden: 
+- das Einzelzimmer 
+- das Doppelzimmer 
+- die Suite 
 
-Skizze mit Beschreibung.
+Dazu haben wir auch drei passende Bilder gewählt und drei beschreibende Texte je rechts neben dem Bild geplant. 
+
+Wie bei der "Homeseite" soll diese ein Menü an der oben und am Ende einen "Footer" mit Kontaktdaten haben.
 
 ### Unterseite 2 "Events und News"
+![Events und News](/github/eventsundnews_planung.png)
+Die zweite Unterseite, bei uns **Events und News**, soll die extraordinären Angebote im und um das Hotel zeigen. Diese sollen getrennt angezeigt werden. Links sollen die Angebote im Hotel sein und rechts um das Hotel. Dazu soll man durch einen Link unter dem Bild aus der Katerogie "in der Umgebung" auf eine Seite kommen, wo man die abgebildete Aktivität buchen könnte. 
+Bei der "im Hotel" Kategorie sollte ein Datum, Ort und eine Zeit angegeben werden, wo man kostenlos teilnehmen kann.  
 
-Skizze mit Beschreibung.
+Dazu soll man oberhalb das bedienbare Menü sehen und unterhalb den "Footer".
 
 usw...
 
@@ -44,19 +61,22 @@ Zeitplan mit mindestens wöchentlichen Meilensteinen. Wann setzt wer etwas um?
 
 ## Umsetzung
 
-Detaillierte Beschreibung der umgesetzten Webseite.
-
-### Hauptseite
 
 
-Screenshot mit Beschreibung.
-
-### Unterseite 1
+### Hauptseite "Homeseite"
+![Homeseite](/github/homeseite_planung.png)
+ 
 
 Screenshot mit Beschreibung.
 
-### Impressum
+### Unterseite 1 "Preise und Zimmer"
+![Preise und Zimmer](/github/homeseite_planung.png)
+ 
+Screenshot mit Beschreibung.
 
+### Unterseite 2 "Events und News"
+![Events und News](/github/homeseite_planung.png)
+ 
 Screenshot mit Beschreibung.
 
 usw...
