@@ -17,7 +17,7 @@ Auf jeder Seite sieht man einen "Footer", die unsere Kontaktdaten zu verfügung 
 
 ### Hauptseite "Home"
 
-![Homeseite](/github/homeseite_planung.png)
+![Homeseite](homeseiteplanung.jpg)
  
  Die **"Homeseite"**, auch Hauptseite, ist leicht verständlich gestaltet. Dabei war uns sehr wichtig das sie potentielle Kunden ansprechen könnte. Oben an der Website soll man das Menü und unterhalb sollte man einen "Footer" sehen.
  Man sollte ein selbst erstelltes Logo sehen und dazu zwei Bilder und Textabschnitte.
@@ -53,10 +53,16 @@ Zeitplan mit mindestens wöchentlichen Meilensteinen. Wann setzt wer etwas um?
 | Deadline | Name | Beschreibung |
 | --- | --- | --- |
 | 10.05.2021 | Lara Schmid, Elena Lützelschwab | Menu erstellen |
-| 13.05.2021 | Elena Lützelschwab| Text auf dem Home Seite |
+| 13.05.2021 | Elena Lützelschwab| Text auf der Home Seite |
 | 13.05.2021 | Lara Schmid | Home Seite gestalten |
-| 15.05.2021 | Lara Schmid, Elena Lützeschwab  | Unterseiten gestalten |
-| 17.05.2021 | Lara Schmid, Elena Lützeschwab | Footer, Dokumentation beginnen|
+| 15.05.2021 | Lara Schmid, Elena Lützeschwab  | Unterseite Zimmer/Preise gestalten |
+| 17.05.2021 | Elena Lützelschwab | README schreiben| Unterseite Events und News |
+| 22.05.2021 | Lara Schmid, Elena Lützeschwab | Footer, README beginnen|
+| 26.05.2021 | Elena Lützelschwab | README schreiben|
+| 29.05.2021 | Lara Schmid | Website verschönern|
+| 29.05.2021 | Elena Lützelschwab, Lara Schmid | README fertig schreiben|
+
+
 
 
 ## Umsetzung
@@ -64,18 +70,31 @@ Zeitplan mit mindestens wöchentlichen Meilensteinen. Wann setzt wer etwas um?
 
 
 ### Hauptseite "Homeseite"
-![Homeseite](/github/homeseite_planung.png)
+![Homeseite](/github/homeseiteplanung.png)
+Auf der Home Seite haben wir als erstes den Titel erstellt. Dazu haben wir auf der 
+home.html Seite einen neuen div erstellt. In diesem div wurde einen neue Klasse mit dem Namen "indexTitel" eingerichtet. Mithilfe von diesem Namen konnten wir dann auf style.css versuchen, den Titel richtig zu platzieren, die richtige Grösse für ihn zu finden und die passende Farbe und Schriftart einzustellen. Ahnschliessend wurde das erste Bild des Hotels eingefügt. Auch für das wurde ein neuer div, eine neue Klasse und einen passenden Namen (startBild) auf home.html geschrieben. Das Bild haben wir ebenfalls auf 
+style.css richtig platziert. Direkt daneben wurde der erste Text auf unserer Webiste eingefügt. Für diesen Text wurde ebenfalls wieder einen neune div, eine neue Klasse und einen neuen Namen(BasicInfo) erstellt. Auf style.css wurde er in die richtige Position gebracht und erhielt die richtige Farbe und Grösse.  
+Beim Text "überuns" und beim Text "barBild" sind wir genau gleich vorgegangen wie bei den ersten beiden. Zum Schluss haben wir noch den Footer auf der Home Seite eingerichtet und ahnschlissend den body abgeschlossen. 
+
  
 
 Screenshot mit Beschreibung.
 
 ### Unterseite 1 "Preise und Zimmer"
-![Preise und Zimmer](/github/homeseite_planung.png)
+![Preise und Zimmer](/github/homeseiteplanung.png)
+Auf der ersten Unterseite "Preise und Zimmer" haben wir etwa das gleiche gemacht wie auf der Home Seite. Als erstes haben wir den Titel geschrieben und ihn ahnschlissend auf style.css platziert. Das selbe haben wir mit den beiden Bildern und dem Text gemacht. 
+Für jeden Text, jedes Bild oder jeden Link wurde auf der dazugehörigen html Seite 
+(preise.html) einen neuen div, eine Neue Klasse und einen passenden Namen generiert. 
+Alles wurde ahnschliessend unter dem selben Namen auf style.css richtig platziet. 
+Die richtige Grösse, Schriftart und passende Farbe wurde ebenfalls dort gewählt und programiert. 
+Zum Schluss haben wir unten auf der Unterseite noch einen Button mithilfe von JavaScript eingefügt.  
+
+
  
 Screenshot mit Beschreibung.
 
 ### Unterseite 2 "Events und News"
-![Events und News](/github/homeseite_planung.png)
+![Events und News](/github/homeseiteplanung.png)
  
 Screenshot mit Beschreibung.
 
