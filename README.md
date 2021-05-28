@@ -15,9 +15,10 @@ Auf der letzten Seite sind sich die spektakulären "Events und News" aus dem Hot
 Auf jeder Seite sieht man einen "Footer", die unsere Kontaktdaten zu verfügung stellen, falls es zu Fragen kommen sollte. 
 
 
-### Hauptseite "Home"
+### Hauptseite **"Home"**
+----
 
-![Homeseite](/github/homeseite_planung.png)
+![Homeseite](homeseite_planung.png) 
  
  Die **"Homeseite"**, auch Hauptseite, ist leicht verständlich gestaltet. Dabei war uns sehr wichtig das sie potentielle Kunden ansprechen könnte. Oben an der Website soll man das Menü und unterhalb sollte man einen "Footer" sehen.
  Man sollte ein selbst erstelltes Logo sehen und dazu zwei Bilder und Textabschnitte.
@@ -26,10 +27,11 @@ Auf jeder Seite sieht man einen "Footer", die unsere Kontaktdaten zu verfügung 
 
  Das zweite Bild soll die Hotel Bar, welche wichtig für die Enstehungsgeschichte ist und darum weise dort platziert wurde zeigen. Daneben soll ein kurzer historischbedingter Text stehen.
 
-### Unterseite 1 "Zimmer und Preise" 
+### Unterseite 1 **"Zimmer und Preise"** 
+---
 
-![Zimmer und Preise](/github/zimmerundpreise_planung.png)
 
+![Zimmer und Preise](preiseundzimmer_planung.png)
 
 Die erste Unterseite, bei uns **Zimmer und Preise** gennannt, soll dem Kunden die Übernachtungszimmer vorstellen. Wir haben uns für drei verschiedene Zimmerarten entschieden: 
 - das Einzelzimmer 
@@ -40,9 +42,10 @@ Dazu haben wir auch drei passende Bilder gewählt und drei beschreibende Texte j
 
 Wie bei der "Homeseite" soll diese ein Menü an der oben und am Ende einen "Footer" mit Kontaktdaten haben.
 
-### Unterseite 2 "Events und News"
+### Unterseite 2 **"Events und News"**
+---
 
-![Events und News](/github/eventsundnews_planung.png)
+![Events und News](eventsundnews_planung.png)
 
 
 Die zweite Unterseite, bei uns **Events und News**, soll die extraordinären Angebote im und um das Hotel zeigen. Diese sollen getrennt angezeigt werden. Links sollen die Angebote im Hotel sein und rechts um das Hotel. Dazu soll man durch einen Link unter dem Bild aus der Katerogie "in der Umgebung" auf eine Seite kommen, wo man die abgebildete Aktivität buchen könnte. 
