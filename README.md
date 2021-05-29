@@ -16,6 +16,8 @@ Auf jeder Seite sieht man einen "Footer", die unsere Kontaktdaten zu verfügung 
 
 
 ### Hauptseite **"Home"**
+
+![Homeseite](homeseite_planung.png)
  
  Die **"Homeseite"**, auch Hauptseite, ist leicht verständlich gestaltet. Dabei war uns sehr wichtig das sie potentielle Kunden ansprechen könnte. Oben an der Website soll man das Menü und unterhalb sollte man einen "Footer" sehen.
  Man sollte ein selbst erstelltes Logo sehen und dazu zwei Bilder und Textabschnitte.
@@ -42,7 +44,7 @@ Wie bei der "Homeseite" soll diese ein Menü an der oben und am Ende einen "Foot
 ### Unterseite 2 **"Events und News"**
 ---
 
-![Events und News](eventsundnews_planung.png)
+![Events und News](events_plannung.png)
 
 
 Die zweite Unterseite, bei uns **Events und News**, soll die extraordinären Angebote im und um das Hotel zeigen. Diese sollen getrennt angezeigt werden. Links sollen die Angebote im Hotel sein und rechts um das Hotel. Dazu soll man durch einen Link unter dem Bild aus der Katerogie "in der Umgebung" auf eine Seite kommen, wo man die abgebildete Aktivität buchen könnte. 
@@ -50,7 +52,7 @@ Bei der "im Hotel" Kategorie sollte ein Datum, Ort und eine Zeit angegeben werde
 
 Dazu soll man oberhalb das bedienbare Menü sehen und unterhalb den "Footer".
 
-usw...
+
 
 ## Zeitplan
 
@@ -75,42 +77,55 @@ Zeitplan mit mindestens wöchentlichen Meilensteinen. Wann setzt wer etwas um?
 
 
 
+
 ### Hauptseite "Homeseite"
-![Homeseite](/github/homeseiteplanung.png)
-Auf der Home Seite haben wir als erstes den Titel erstellt. Dazu haben wir auf der 
-home.html Seite einen neuen div erstellt. In diesem div wurde einen neue Klasse mit dem Namen "indexTitel" eingerichtet. Mithilfe von diesem Namen konnten wir dann auf style.css versuchen, den Titel richtig zu platzieren, die richtige Grösse für ihn zu finden und die passende Farbe und Schriftart einzustellen. Ahnschliessend wurde das erste Bild des Hotels eingefügt. Auch für das wurde ein neuer div, eine neue Klasse und einen passenden Namen (startBild) auf home.html geschrieben. Das Bild haben wir ebenfalls auf 
-style.css richtig platziert. Direkt daneben wurde der erste Text auf unserer Webiste eingefügt. Für diesen Text wurde ebenfalls wieder einen neune div, eine neue Klasse und einen neuen Namen(BasicInfo) erstellt. Auf style.css wurde er in die richtige Position gebracht und erhielt die richtige Farbe und Grösse.  
-Beim Text "überuns" und beim Text "barBild" sind wir genau gleich vorgegangen wie bei den ersten beiden. Zum Schluss haben wir noch den Footer auf der Home Seite eingerichtet und ahnschlissend den body abgeschlossen. 
+Bild 1
+![Homeseite](homeseite_html.png) 
+Bild 2
+![Homeseite](homeseite2_html.png)
 
+
+Auf der Home Seite haben wir als erstes den Titel programiert. Dazu haben wir auf der home.html Seite(Bild 1 oben) einen neuen div erstellt. In diesem div wurde einen neue Klasse mit dem Namen "indexTitel" eingerichtet. Mithilfe von diesem Namen konnten wir dann auf style.css (Bild 2 oben) versuchen, den Titel richtig zu platzieren, die richtige Grösse für ihn zu finden und die passende Farbe und Schriftart einzustellen. Ahnschliessend wurde das erste Bild des Hotels eingefügt. Dieses Bild haben wir auf Pinterest gefunden, heruntergeladen und mithilfe eines Programms in die richtige Grösse gebracht. Danach wurde es direkt in Visual Studio Code eingefügt(hotel3.png). Um das Bild nun auf der Webseite erscheinen zulassen wurde ein neuer div, eine neue Klasse und einen passenden Namen (startBild) auf home.html geschrieben. Das Bild haben wurde ebenfalls auf style.css richtig platziert. 
+Direkt daneben wurde der erste Text auf unserer Webiste eingefügt. Für diesen Text wurde ebenfalls wieder einen neune div, eine neue Klasse und einen neuen Namen(BasicInfo) erstellt. Auf style.css wurde er in die richtige Position gebracht und erhielt die richtige Farbe und Grösse.  
+Beim Text "überuns" und beim Bild "barBild" sind wir genau gleich vorgegangen wie bei den ersten beiden. Zum Schluss haben wir noch den Footer auf der Home Seite eingefügt(Bild 1 oben). Dieser wurde mit include-html eingefügt. Damit wird auf die html Seite des Footers (footer.html) zugegriffen und somit erscheint das, was auf der Footer Seite generiert wurde, auf der Home Seite der Webseite. Der Footer wurde so auf allenSeiten der Webseite so eingefügt. Auch das Menu wurde so auf allen drei Seiten eingefügt damit es auf allen Seiten erscheint.
  
-
-Screenshot mit Beschreibung.
+ 
 
 ### Unterseite 1 "Preise und Zimmer"
-![Preise und Zimmer](/github/homeseiteplanung.png)
-Auf der ersten Unterseite "Preise und Zimmer" haben wir etwa das gleiche gemacht wie auf der Home Seite. Als erstes haben wir den Titel geschrieben und ihn ahnschlissend auf style.css platziert. Das selbe haben wir mit den beiden Bildern und dem Text gemacht. 
+Bild 1
+![Preise und Zimmer](preise_html.png)
+Bild 2
+![Preise und Zimmer](preise2_html.png)
+
+Auf der ersten Unterseite "Preise und Zimmer" haben wir etwa das gleiche gemacht wie auf der Home Seite. Als erstes haben wir den Titel geschrieben und ihn ahnschlissend auf style.css platziert. Das selbe haben wir mit den drei Bildern und den Texten dazu gemacht. Die Bilder hatten wir ebenfalls auf Pinterest gefunden und ahnschliessend direkt eingefügt als Bild(doppezimmer.png, einzelzimmer.png und suite.png).
 Für jeden Text, jedes Bild oder jeden Link wurde auf der dazugehörigen html Seite 
 (preise.html) einen neuen div, eine Neue Klasse und einen passenden Namen generiert. 
-Alles wurde ahnschliessend unter dem selben Namen auf style.css richtig platziet. 
-Die richtige Grösse, Schriftart und passende Farbe wurde ebenfalls dort gewählt und programiert. 
-Zum Schluss haben wir unten auf der Unterseite noch einen Button mithilfe von JavaScript eingefügt.  
+Alles wurde unter jenem Namen welcher auf der html Seite (preise.html) generiert wurde, auf style.css wieder verwendet damit man den Text oder das Bild richtig platzieren konnte.
+Die richtige Grösse, Schriftart und passende Farbe wurde ebenfalls dort gewählt und programiert. Bevor wir die Bilder dort in die richtige position gebracht hatten haben wir mithilfe eines Programms die Bilder in die richtige Grösse gebracht, sodass sie alle etwa gleich gross waren. 
+Auch auf dieser Seite wurde noch der Footer eingefügt. (Bild 1 oben)
+Zum Schluss haben wir unten auf der Unterseite noch einen Button mithilfe von JavaScript eingefügt. Dieser wurde zuerst auf der html Seite "preise.html" programmiert(Bild 1 oben).Auf script.js wurde eingestellt, dass das Mail Fenster geöffnet wird und welche Email Adresse dabei verwendet werden soll(Bild 2 oben)
 
 
  
-Screenshot mit Beschreibung.
+
 
 ### Unterseite 2 "Events und News"
-![Events und News](/github/homeseiteplanung.png)
- 
-Screenshot mit Beschreibung.
+Bild 1
+![Events und News](events_html.png)
 
-usw...
+Bei unserer letzten Unterseite "Events und News" haben wir mit den beiden Titel begonnen.Diese haben wir erneut auf der dazugehörigen html Seite (events.html) generiert mithilfe eines neune divs, einer neuen Klasse und eines neuen passenden Namens.
+Unter demselben Namen wurde ahnschliessend auf style.css die Titel wieder richtig platziert und farblich angepasst. Die vier Bilder wurden ebenfalls auf Pinterest gefunden und mithilfe eines Programms in die richtige Grösse gebracht und auf Visual Studio Code als Bilder eingefügt(restaurant.png, spa.png, schnorcheln.png, jetski.png). Auch diese wurden an die richtige Stelle auf der Webseite gebracht. Die Texte wurden passend zu den jeweilig dazugehörenden Bildern angepasst und oberhalb der Bilder in die richtige Position bewegt.
+Die beiden dazugehörigen Links wurden mit einem neuen div, einer neuen Klasse, einem Namen und einem 
+Tag um einen Link einzufügen, generiert. Hinter dem Link wird noch geschrieben was man statt des Links auf der Webseite sehen soll.
+(Beispiel Bild  oben, Hier buchen)
+Zum Schluss wurde noch der Footer eingefügt (Bild oben)
+
 
 ## Zusammenfassung
 
 Zusammenfassung mit Vergleich zwischen Planung und Umsetzung. Was hat geklappt und was nicht? Konnte der Zeitplan eingehalten werden? Konnten die Skizzen umgesetzt werden?
 
-Wir konnten gut unsere Pläne gut umsetzen, da wir eine gute Einteilung und Organisierung hatten. Unsere Zusammenarbeit hat hervorragend harmoniert.
+Wir konnten unsere Pläne gut umsetzen, da wir eine gute Einteilung und Organisierung hatten. Unsere Zusammenarbeit hat hervorragend harmoniert.
 
 Eine Problematik war die Zeit, die wir für die Unterseiten aufwenden mussten. Diese brauchten deutlich länger als die Hauptseite, da wir mehr Details und Verlinkungen eingeplant haben. 
 
