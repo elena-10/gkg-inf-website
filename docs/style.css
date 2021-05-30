@@ -46,6 +46,8 @@ ul.topnav {
     width: 400px;
     color: black;
     font-size: 1.3em;
+    padding: 10px;
+    border: solid 2px #a1d6e2;
   }
   .indexTitel{
     position: absolute;
@@ -63,6 +65,8 @@ ul.topnav {
     text-align: center;
     width: 550px;
     font-size: 1.3em;
+    padding: 10px;
+    border: solid 2px #a1d6e2;
   }
   .barBild{
     position: absolute;
@@ -83,7 +87,7 @@ ul.topnav {
   text-align: center;
   border-bottom: solid 3px #1995ad;
   
-}
+ }
 .textEinzelzimmer{
   position: absolute;
   top: 260px;
@@ -164,13 +168,13 @@ ul.topnav {
 .titelHotelAktivitäten{
   position: absolute;
   top: 150px;
-  left: 350px;
+  left: 295px;
   border-bottom: 3px solid #283655;
 }
 .titelUmgebungsAktivitäten{
   position: absolute;
   top: 150px;
-  left: 1000px;
+  left: 975px;
   border-bottom: 3px solid #283655;
 }
 .titelRestaurant{
@@ -183,26 +187,28 @@ ul.topnav {
   top: 350px;
   left: 150px;
   width: 400px;
+  font-size: 1.3em;
 }
 .bildRestaurant{
   position: absolute;
-  top: 500px;
+  top: 600px;
   left: 150px;
 }
 .titelSpa{
   position: absolute;
-  top: 850px;
+  top: 950px;
   left: 150px;
 }
 .beschreibungSpa{
   position: absolute;
-  top: 900px;
+  top: 1000px;
   left: 150px;
   width: 400px;
+  font-size: 1.3em;
 }
 .bildSpa{
   position: absolute;
-  top: 1050px;
+  top: 1200px;
   left: 150px;
   padding-bottom: 100px;
 }
@@ -213,12 +219,12 @@ ul.topnav {
 }
 .bildSchnorcheln{
   position: absolute;
-  top: 500px;
+  top: 600px;
   left: 850px;
 }
 .linkSchnorcheln{
   position: absolute;
-  top: 820px;
+  top: 920px;
   left: 850px;
 }
 .beschreibungSchnorcheln{
@@ -226,32 +232,35 @@ ul.topnav {
   top: 350px;
   left: 850px;
   width: 400px;
+  font-size: 1.3em;
+
 }
 .titelJetski{
   position: absolute;
-  top: 850px;
+  top: 950px;
   left: 850px;
 }
 .beschreibungJetski{
   position: absolute;
-  top: 900px;
+  top: 1000px;
   left: 850px;
   width: 400px;
+  font-size: 1.3em;
 }
 .bildJetski{
   position: absolute;
-  top: 1050px;
+  top: 1200px;
   left: 850px;
   padding-bottom: 100px;
 }
 .linkJetski{
   position: absolute;
-  top: 1350px;
+  top: 1500px;
   left: 850px;
 }
 
 .footerEvents {
-  margin-top: 1450px; 
+  margin-top: 1550px; 
   background-color: #bcbabe;
   padding: 30px; 
   color: white; 
