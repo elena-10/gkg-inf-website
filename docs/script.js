@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 
   function sendEmail(){
-      window.open("mailto:laraschmid@sunrise.ch")
+      window.open("mailto:lara.schmid1@stud.edubs.ch")
   }
 
 
